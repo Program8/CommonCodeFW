@@ -6,7 +6,7 @@ target 'CommonCodeFW' do
   use_frameworks!
 
   # Pods for CommonCodeFW
-  pod 'FirebaseAnalytics'
+  pod 'FirebaseCrashlytics'
   
   target 'CommonCodeFWTests' do
     # Pods for testing
