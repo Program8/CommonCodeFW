@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2186A50662E7EDEECB00C881 /* Pods_CommonCodeFW_CommonCodeFWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC511634BEF8C256ECA82A3D /* Pods_CommonCodeFW_CommonCodeFWTests.framework */; };
+		253DA5DEB849FA506F47E4AB /* Pods_CommonCodeFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A533398008F659766614F1F4 /* Pods_CommonCodeFW.framework */; };
 		B602CDEB2AEC1A7700B180CC /* CommonCodeFW.docc in Sources */ = {isa = PBXBuildFile; fileRef = B602CDEA2AEC1A7700B180CC /* CommonCodeFW.docc */; };
 		B602CDF12AEC1A7800B180CC /* CommonCodeFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B602CDE62AEC1A7700B180CC /* CommonCodeFW.framework */; };
 		B602CDF62AEC1A7800B180CC /* CommonCodeFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602CDF52AEC1A7800B180CC /* CommonCodeFWTests.swift */; };
 		B602CDF72AEC1A7800B180CC /* CommonCodeFW.h in Headers */ = {isa = PBXBuildFile; fileRef = B602CDE92AEC1A7700B180CC /* CommonCodeFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B602CE2A2AEC260B00B180CC /* Test12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602CE292AEC260B00B180CC /* Test12.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B6D5E2E72AECF194009D2A13 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03CEBF8FA41C24073B81CDA6 /* Pods-CommonCodeFW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeFW.debug.xcconfig"; path = "Target Support Files/Pods-CommonCodeFW/Pods-CommonCodeFW.debug.xcconfig"; sourceTree = "<group>"; };
+		1DB1DAC549B6A6469F3C5E58 /* Pods-CommonCodeFW-CommonCodeFWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeFW-CommonCodeFWTests.release.xcconfig"; path = "Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests.release.xcconfig"; sourceTree = "<group>"; };
+		3685B7E579CA1D0018ADA3A9 /* Pods-CommonCodeFW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeFW.release.xcconfig"; path = "Target Support Files/Pods-CommonCodeFW/Pods-CommonCodeFW.release.xcconfig"; sourceTree = "<group>"; };
+		A533398008F659766614F1F4 /* Pods_CommonCodeFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonCodeFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC511634BEF8C256ECA82A3D /* Pods_CommonCodeFW_CommonCodeFWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonCodeFW_CommonCodeFWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602CDE62AEC1A7700B180CC /* CommonCodeFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCodeFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602CDE92AEC1A7700B180CC /* CommonCodeFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCodeFW.h; sourceTree = "<group>"; };
 		B602CDEA2AEC1A7700B180CC /* CommonCodeFW.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CommonCodeFW.docc; sourceTree = "<group>"; };
 		B602CDF02AEC1A7800B180CC /* CommonCodeFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonCodeFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602CDF52AEC1A7800B180CC /* CommonCodeFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCodeFWTests.swift; sourceTree = "<group>"; };
+		B602CE292AEC260B00B180CC /* Test12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test12.swift; sourceTree = "<group>"; };
+		C72935EE7FECB570213C7563 /* Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig"; path = "Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253DA5DEB849FA506F47E4AB /* Pods_CommonCodeFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +68,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				B602CDF12AEC1A7800B180CC /* CommonCodeFW.framework in Frameworks */,
+				2186A50662E7EDEECB00C881 /* Pods_CommonCodeFW_CommonCodeFWTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6432CD1635B5D7D0149067F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CEBF8FA41C24073B81CDA6 /* Pods-CommonCodeFW.debug.xcconfig */,
+				3685B7E579CA1D0018ADA3A9 /* Pods-CommonCodeFW.release.xcconfig */,
+				C72935EE7FECB570213C7563 /* Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig */,
+				1DB1DAC549B6A6469F3C5E58 /* Pods-CommonCodeFW-CommonCodeFWTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B602CDDC2AEC1A7700B180CC = {
 			isa = PBXGroup;
 			children = (
 				B602CDE82AEC1A7700B180CC /* CommonCodeFW */,
 				B602CDF42AEC1A7800B180CC /* CommonCodeFWTests */,
 				B602CDE72AEC1A7700B180CC /* Products */,
+				B6D5E28C2AECE672009D2A13 /* Frameworks */,
+				6432CD1635B5D7D0149067F5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +109,7 @@
 		B602CDE82AEC1A7700B180CC /* CommonCodeFW */ = {
 			isa = PBXGroup;
 			children = (
+				B602CE012AEC1A8A00B180CC /* Main */,
 				B602CDE92AEC1A7700B180CC /* CommonCodeFW.h */,
 				B602CDEA2AEC1A7700B180CC /* CommonCodeFW.docc */,
 			);
@@ -83,6 +122,23 @@
 				B602CDF52AEC1A7800B180CC /* CommonCodeFWTests.swift */,
 			);
 			path = CommonCodeFWTests;
+			sourceTree = "<group>";
+		};
+		B602CE012AEC1A8A00B180CC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B602CE292AEC260B00B180CC /* Test12.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B6D5E28C2AECE672009D2A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A533398008F659766614F1F4 /* Pods_CommonCodeFW.framework */,
+				AC511634BEF8C256ECA82A3D /* Pods_CommonCodeFW_CommonCodeFWTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,16 +159,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B602CDFA2AEC1A7800B180CC /* Build configuration list for PBXNativeTarget "CommonCodeFW" */;
 			buildPhases = (
+				0ACB465B8C63CB86818E06DF /* [CP] Check Pods Manifest.lock */,
 				B602CDE12AEC1A7700B180CC /* Headers */,
 				B602CDE22AEC1A7700B180CC /* Sources */,
 				B602CDE32AEC1A7700B180CC /* Frameworks */,
 				B602CDE42AEC1A7700B180CC /* Resources */,
+				B6D5E2E72AECF194009D2A13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CommonCodeFW;
+			packageProductDependencies = (
+			);
 			productName = CommonCodeFW;
 			productReference = B602CDE62AEC1A7700B180CC /* CommonCodeFW.framework */;
 			productType = "com.apple.product-type.framework";
@@ -121,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B602CDFD2AEC1A7800B180CC /* Build configuration list for PBXNativeTarget "CommonCodeFWTests" */;
 			buildPhases = (
+				6C3805F1BC382783563C7B0E /* [CP] Check Pods Manifest.lock */,
 				B602CDEC2AEC1A7800B180CC /* Sources */,
 				B602CDED2AEC1A7800B180CC /* Frameworks */,
 				B602CDEE2AEC1A7800B180CC /* Resources */,
+				6F5A195BBBC9CEF21AE41435 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +224,8 @@
 				Base,
 			);
 			mainGroup = B602CDDC2AEC1A7700B180CC;
+			packageReferences = (
+			);
 			productRefGroup = B602CDE72AEC1A7700B180CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,11 +253,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ACB465B8C63CB86818E06DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonCodeFW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C3805F1BC382783563C7B0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonCodeFW-CommonCodeFWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5A195BBBC9CEF21AE41435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B602CDE22AEC1A7700B180CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B602CE2A2AEC260B00B180CC /* Test12.swift in Sources */,
 				B602CDEB2AEC1A7700B180CC /* CommonCodeFW.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -330,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -344,6 +473,7 @@
 		};
 		B602CDFB2AEC1A7800B180CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CEBF8FA41C24073B81CDA6 /* Pods-CommonCodeFW.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -356,6 +486,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,6 +506,7 @@
 		};
 		B602CDFC2AEC1A7800B180CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3685B7E579CA1D0018ADA3A9 /* Pods-CommonCodeFW.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -387,6 +519,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +539,9 @@
 		};
 		B602CDFE2AEC1A7800B180CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72935EE7FECB570213C7563 /* Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5KG3NX6RA;
@@ -422,7 +557,9 @@
 		};
 		B602CDFF2AEC1A7800B180CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB1DAC549B6A6469F3C5E58 /* Pods-CommonCodeFW-CommonCodeFWTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K5KG3NX6RA;

@@ -1,0 +1,6 @@
+framework module Pods_CommonCodeFW_CommonCodeFWTests {
+  umbrella header "Pods-CommonCodeFW-CommonCodeFWTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
