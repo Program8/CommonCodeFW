@@ -14,6 +14,7 @@
 		B602CDF62AEC1A7800B180CC /* CommonCodeFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602CDF52AEC1A7800B180CC /* CommonCodeFWTests.swift */; };
 		B602CDF72AEC1A7800B180CC /* CommonCodeFW.h in Headers */ = {isa = PBXBuildFile; fileRef = B602CDE92AEC1A7700B180CC /* CommonCodeFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B602CE2A2AEC260B00B180CC /* Test12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602CE292AEC260B00B180CC /* Test12.swift */; };
+		B6D5E2F62AECF91E009D2A13 /* my.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B6D5E2F52AECF91E009D2A13 /* my.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B602CDF02AEC1A7800B180CC /* CommonCodeFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonCodeFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602CDF52AEC1A7800B180CC /* CommonCodeFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCodeFWTests.swift; sourceTree = "<group>"; };
 		B602CE292AEC260B00B180CC /* Test12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test12.swift; sourceTree = "<group>"; };
+		B6D5E2F52AECF91E009D2A13 /* my.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my.podspec; sourceTree = "<group>"; };
 		C72935EE7FECB570213C7563 /* Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig"; path = "Target Support Files/Pods-CommonCodeFW-CommonCodeFWTests/Pods-CommonCodeFW-CommonCodeFWTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		B602CDDC2AEC1A7700B180CC = {
 			isa = PBXGroup;
 			children = (
+				B6D5E2F52AECF91E009D2A13 /* my.podspec */,
 				B602CDE82AEC1A7700B180CC /* CommonCodeFW */,
 				B602CDF42AEC1A7800B180CC /* CommonCodeFWTests */,
 				B602CDE72AEC1A7700B180CC /* Products */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D5E2F62AECF91E009D2A13 /* my.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
